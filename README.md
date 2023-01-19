@@ -10,12 +10,12 @@
 ## Project Description
 
 - "On the job ticket" given the started code that needs to be modified. 
-- Refactored the gived HTML and CSS code to be optimized for accessibility. 
+- Refactored the given HTML and CSS code to be optimized for accessibility. 
 - Ensured people with disabilities can access the website using assitive technologies. 
 - Made the CSS more efficient by consolidating CSS selectors and properties to follow the semantic structure of the HTML elements. 
 - Replaced HTML element "div' to sematic element "header"
 - Replaced "div" to "nav" for the unordered lists.
-- Replaced 
+- Replaced individual section classes to class "section-type" since they all had the same styling applied to them.
 
 ## User Story and Acceptance Criteria
 

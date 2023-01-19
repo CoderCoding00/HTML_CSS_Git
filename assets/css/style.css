@@ -28,7 +28,7 @@ header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 /* Changed div to nav */
@@ -59,8 +59,6 @@ p {
     background-position: center;
 }
 
-/* Floats */
-
 .float-left {
     float: left;
     margin-right: 25px;
@@ -71,7 +69,7 @@ p {
     margin-left: 25px;
 }
 
-/* Changed .comtent to main */
+/* Changed .content to main */
 main {
     width: 75%;
     display: inline-block;
@@ -80,133 +78,67 @@ main {
 
 /* Benefits "aside" */
 .benefits {
-    margin-right: 20px;
-    padding: 20px;
+    margin-right: 20px auto;
+    padding: 10px;
+    margin-bottom: 20px auto;
     clear: both;
     float: right;
     width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* height: 100%; */
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
 /* Changed .benefit-lead to .benefit */
-.benefit {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-/* No longer need -brand or -cost b/c those are included in .benfit styling */
-/* .benefit-brand {
+/* Deleted benefit-brand and benefit-cost b/c those are now included in .benfit-type styling and all have the same styling */
+.benefit-type {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-} */
-
-/* Changed .benefit-lead h3 -brand h3 -cost h3 to Just an h3 tag and commented out the others */
-.benefit h3 {
+/* Changed .benefit-lead h3 -brand h3 -cost h3 to Just an h3 tag and deleted the others since they all have the same styling */
+.benefit-type h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* .benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
-
-/* Changed .benefit-lead img -brand img -cost img to Just an img tag and commented out the others */ 
-.benefit img {
+/* Changed .benefit-lead img -brand img -cost img to Just an img tag and deleted the others */ 
+.benefit-type img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+    
 }
-
-/* .benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
-
-/* Services Section */
 
 /* Changed .search-engine-optimization to ".service" and commented out the other 2 below it */
 .service {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
-/* .online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-} */
-
-/* Changed from .search-engine-optimization to just ".service img" and comment out the other 2 below it */
+/* Changed from .search-engine-optimization to just ".service img" and applied to all service sections since they have the same styling */
 .service img {
     max-height: 200px;
 }
 
-/* .online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-} */
-
-/* Changed .search-engine-optimization h2 to ".service h2" and commented out the other 2 below */
+/* Changed .search-engine-optimization h2 to ".service h2" and applied to all service sections since they have the same styling */
 .service h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* .online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} */
-
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
+    text-align: center;
 }
